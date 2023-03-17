@@ -27,7 +27,7 @@ const relationship2 = {
     name: 'zero',
     friends: ['nero', 'hero', 'xero'],
     logFriends : () => {
-      this.friends?.forEach(friend => { //변수, 상수, 메소드 값이 null이면 값을 인식해준다.
+      this.friends?.forEach(friend => { //? 변수, 상수, 메소드 값이 null이면 값을 인식해준다.
         console.log(this.name, friend);
       });
     },
