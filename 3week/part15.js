@@ -1,4 +1,4 @@
-const condition = false; 
+const condition = true; 
 const promise = new Promise((resolve, reject) => {
     if (condition) {
       resolve('성공');
