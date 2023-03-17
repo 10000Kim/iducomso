@@ -15,7 +15,9 @@ function add1(x, y) {
   const add4 = (x, y) => (x + y);
   
   function not1(x) {
-    return !x;
+    return !x;  //자바스크립트 기본은 *문자!!
   }
-  
+
   const not2 = x => !x;
+
+  console.log(not1(3))
