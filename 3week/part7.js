@@ -20,4 +20,11 @@ function add1(x, y) {
 
   const not2 = x => !x;
 
-  console.log(not1(3))
+  //var a = undefined;
+  //console.log(not1(a)) //true
+
+  //var a = true;
+  //console.log(not1(a)) //false
+
+  var a = 3;
+  console.log(not1(a)) //false
