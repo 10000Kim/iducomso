@@ -8,6 +8,14 @@ const promise = new Promise((resolve, reject) => {
   } else {
     reject('실패');
   }
+
+//   if (condition) {
+//     resolve('성공');
+//   } else {
+//     reject('실패');
+//   }
+
+
 });
 // 다른 코드가 들어갈 수 있음
 promise
