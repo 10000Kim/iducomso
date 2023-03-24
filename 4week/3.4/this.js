@@ -2,10 +2,16 @@ console.log(this);
 console.log(this === module.exports); //this가 가리킨다.
 console.log(this === exports);
 
-function whatIsThis() {
+// function whatIsThis() {
+//   console.log('function', this === exports, this === global);
+// }
+// whatIsThis();
+
+{() => {
   console.log('function', this === exports, this === global);
-}
-whatIsThis();
+}}
+// 화살표함수로 바꿈
+
 
 //최상위 스코프의 this -> module.exports를 가리킨다.
 //Global은 window로 보면됨.
