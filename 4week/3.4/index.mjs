@@ -10,3 +10,6 @@ function checkStringOddOrEven(str){
 
 console.log(checkNumber(10));
 console.log(checkStringOddOrEven('hello'));
+
+//mjs 확장자를 사용하거나 package.json에 type: "module"을 추가해야 한다.
+//require 대신 import, module.exports대신 export default, exports대신 export를 쓰는 것
