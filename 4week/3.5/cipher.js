@@ -13,3 +13,5 @@ const decipher = crypto.createDecipheriv(algorithm, key, iv);
 let result2 = decipher.update(result, 'base64', 'utf8');
 result2 += decipher.final('utf8');
 console.log('복호화:', result2);
+
+//양방향 암호화는 잘안쓰인다.
