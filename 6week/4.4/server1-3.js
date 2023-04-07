@@ -1,7 +1,7 @@
-const http2 = require('http2');
+const https = require('https');
 const fs = require('fs');
 
-http2.createSecureServer({
+https.createServer({
   cert: fs.readFileSync('도메인 인증서 경로'),
   key: fs.readFileSync('도메인 비밀키 경로'),
   ca: [
